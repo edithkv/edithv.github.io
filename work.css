@@ -1,0 +1,169 @@
+body {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+
+}
+/* ---------------------------------------------------------------------------*/
+/* ---------------------navigation bar styling -------------------------------*/
+/* ---------------------------------------------------------------------------*/
+#name {
+  font-family: 'Satisfy', cursive;
+  font-size: 250%;
+  text-decoration: none;
+  color: black;
+  letter-spacing: .03em;
+  text-align: center;
+}
+nav {
+  background-color: white;
+  border-radius: 4px;
+  color: black;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+}
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+  }
+
+    nav ul li {
+      display: inline-block;
+      list-style-type: none;
+      -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+        -ms-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        transition: all 0.2s;
+    }
+
+
+      nav > ul > li > a {
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        color: black;
+        display: block;
+        line-height: 56px;
+        padding: 0 24px;
+        text-decoration: none;
+        font-size: 120%;
+        font-weight: 400;
+        letter-spacing: .01em;
+      }
+
+        nav > a:hover {
+          color: grey;
+        }
+
+        nav > ul > li:hover > a {
+          color: grey;
+        }
+
+/* ---------------------------------------------------------------------------*/
+/* -----------------------Paragraph Styling--------------------------------*/
+.community h2 {
+  margin-left: 5%;
+  font-size: 210%;
+  letter-spacing: 0.1em;
+}
+.community h3{
+  margin-left: 5%;
+  font-size: 170%;
+  font-weight: bold;
+}
+.community p {
+  margin-top: 3%;
+  margin-left: 7%;
+  font-size: 125%;
+  margin-right: 7%;
+}
+
+.card1{
+  overflow: hidden;
+}
+
+.card1 img {
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transform-origin: center center;
+  filter: brightness(80%);
+  width: 50%;
+  margin-left: 25%;
+  border-radius: 50%;
+}
+
+.card1:hover img {
+  filter: brightness(100%);
+  transform: scale(1.2);
+}
+
+.card2{
+  overflow: hidden;
+}
+
+.card2 img {
+  transition: transform .4s ease;
+  width: 35%;
+  margin-left: 30%;
+}
+
+.card2:hover img {
+  transform: scale(1.1);
+}
+
+.card3{
+  overflow: hidden;
+}
+
+.card3 img {
+  transition: transform .5s ease;
+  width: 32%;
+  margin-left: 30%;
+}
+
+.card3:hover img {
+  transform: scale(1.2);
+}
+
+.card4{
+  overflow: hidden;
+}
+
+.card4 img {
+  transition: transform .5s ease;
+  width: 25%;
+  margin-left: 34%;
+}
+
+.card4:hover img {
+  transform: scale(1.07);
+}
+.icons img{
+  width: 7%;
+
+}
+#gmail{
+  filter: grayscale(100%);
+}
+#link{
+  filter: grayscale(100%);
+}
+#color{
+  filter: grayscale(0);
+}
+/* ---------------------------------------------------------------------------*/
+/* -----------------------TYPEWRITER STYLING--------------------------------*/
+.welcome
+{
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  text-align: center;
+}
+span {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+    50% {
+      border-color: transparent;
+    }
+  }

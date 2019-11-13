@@ -1,0 +1,76 @@
+body {
+  text-align: center;
+
+}
+
+/* ---------------------------------------------------------------------------*/
+/* ---------------------navigation bar styling -------------------------------*/
+/* ---------------------------------------------------------------------------*/
+#header {
+  font-family: 'Satisfy', cursive;
+  font-size: 250%;
+  text-decoration: none;
+  color: black;
+  letter-spacing: .03em;
+  text-align: center;
+}
+nav {
+  background-color: white;
+  border-radius: 4px;
+  color: black;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+}
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+  }
+
+    nav ul li {
+      display: inline-block;
+      list-style-type: none;
+      -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+        -ms-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        transition: all 0.2s;
+    }
+
+
+      nav > ul > li > a {
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        color: black;
+        display: block;
+        line-height: 56px;
+        padding: 0 24px;
+        text-decoration: none;
+        font-size: 120%;
+        font-weight: 400;
+        letter-spacing: .01em;
+      }
+
+        nav > a:hover {
+          color: grey;
+        }
+
+        nav > ul > li:hover > a {
+          color: grey;
+        }
+/* ---------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------*/
+.welcome {
+  margin-top: 20%;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+span {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
